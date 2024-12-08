@@ -17,7 +17,7 @@ function Page() {
       </form>
 
       <p className="sign-up-label">
-        Don't have an account?{" "}
+        Dont have an account?{" "}
         <Link href="../Signup">
           <span className="sign-up-link">Sign up</span>
         </Link>

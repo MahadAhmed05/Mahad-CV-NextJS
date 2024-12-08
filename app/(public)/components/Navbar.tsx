@@ -4,7 +4,7 @@ import "../../styles/navbar.css"; // Assuming you have this CSS file
 import Link from "next/link";
 
 const Navbar: React.FC = () => {
-  const [menuActive, setMenuActive] = useState(false); // Menu toggle state
+  const [, setMenuActive] = useState(false); // Menu toggle state
   const mobileMenuRef = useRef<HTMLDivElement>(null); // Ref for mobile menu
   const toggleButtonRef = useRef<HTMLDivElement>(null); // Ref for the toggle button
 
